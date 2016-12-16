@@ -1,25 +1,84 @@
 ---
 layout: post
-title: Sample Post
-date: 2016-02-15 15:32:24.000000000 +09:00
+title: "Introducing chalk"
+description: "Chalk is a high quality, completely customizable, performant and 100% free blog template for Jekyll."
+tags: [web, jekyll]
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+{% include image.html path="documentation/chalk-intro.png" path-detail="documentation/chalk-intro@2x.png" alt="Chalk intro" %}
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+[Download Chalk here!](https://github.com/nielsenramon/chalk)
 
-Jekyll also offers powerful support for code snippets:
+#### Features:
+  - Dark and Light theme.
+  - Filter on tags.
+  - Customizable pagination.
+  - Beautified link sharing in Facebook and other social media.
+  - Automatic time to read post indicator.
+  - Automatic RSS feed.
+  - About page.
+  - 404 page.
+  - SEO optimized.
+  - PageSpeed optimized.
+  - Cross browser support (supports all modern browsers).
+  - Media embed for videos.
+  - Enlarge images on click (like Medium).
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+#### Integrations
+  - [Google Analytics](https://analytics.google.com/analytics/web/)
+  - [Google Fonts](https://fonts.google.com/)
+  - [Disqus](https://disqus.com/)
+  - [Ionicons](http://ionicons.com/)
+  - Social media links
+
+#### Used tools
+  - [Autoprefixer](https://github.com/postcss/autoprefixer)
+  - [Bower](http://bower.io/)
+  - [Circle CI](https://circleci.com/)
+  - [Html-proofer](https://github.com/gjtorikian/html-proofer)
+  - [Jekyll](http://jekyllrb.com/)
+  - [Jekyll assets](https://github.com/jekyll/jekyll-assets)
+  - [Jekyll Sitemap](https://github.com/jekyll/jekyll-sitemap)
+  - [HTML5 Boilerplate](https://html5boilerplate.com/) (Influenced by)
+  - [Kickster](http://kickster.nielsenramon.com/)
+  - [Retina.js](http://imulus.github.io/retinajs/)
+  - [STACSS](http://stacss.nielsenramon.com/)
+
+{% include image.html path="documentation/enlarge.gif" path-detail="documentation/enlarge@2x.gif" alt="Enlarge image feature" %}
+
+## Installation
+
+If you haven't installed the following tools then go ahead and do so (make sure you have [Homebrew](http://brew.sh/) installed):
+
+{% highlight bash %}
+brew install ruby
+brew install npm
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Next setup your environment:
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+{% highlight bash %}
+bin/setup
+{% endhighlight %}
+
+## Development
+
+Run Jekyll:
+
+{% highlight bash %}
+bundle exec jekyll serve
+{% endhighlight %}
+
+## Deploy to GitHub Pages
+
+Run this in the root project folder in your console:
+
+{% highlight bash %}
+bin/deploy
+{% endhighlight %}
+
+You can find more info on how to use the gh-pages branch and a custom domain [here](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
+
+[View this](https://github.com/nielsenramon/kickster#automated-deployment-with-circle-ci) for more info about automated deployment with Circle CI.
+
+_If you have any questions about using or configuring Chalk please create an issue <a href="" title="here" target="_blank">here</a>!_
