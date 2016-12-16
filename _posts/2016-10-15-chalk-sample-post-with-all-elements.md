@@ -91,6 +91,7 @@ Videos can be added and are responsive by default (4x3 by default, 16x9 with ext
 <iframe src="https://www.youtube.com/embed/vO7m8Hre72E?modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
+
 {% highlight html %}
 <div class="embed-responsive embed-responsive-16by9">
 <iframe src="url-to-video" frameborder="0" allowfullscreen></iframe>
