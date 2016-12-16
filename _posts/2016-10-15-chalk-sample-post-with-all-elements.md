@@ -1,99 +1,25 @@
 ---
 layout: post
-title: "Chalk sample post with all elements"
-description: "Have a look at all the predesigned elements you can use in Chalk."
-og_image: "documentation/sample-image.jpg"
-tags: [design, jekyll]
+title: Sample Post
+date: 2016-02-15 15:32:24.000000000 +09:00
 ---
 
-Chalk uses the default Jekyll syntax highlighting gem Rouge. It has a customized style for both light and dark theme.
-Use the `highlight` tag to use the following code highlighting your preferred language:
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-{% highlight html %}
-<!-- This is a comment -->
-<div class="grid">
-  <h1>This is a heading</h1>
-  <p>
-    This is a paragraph text.
-  </p>
-</div>
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-## Headings
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-Chalk includes 3 headings by default:
-
-## Heading first level
-### Heading second level
-#### Heading third level
-
-{% highlight markdown %}
-## Heading first level
-### Heading second level
-#### Heading third level
-{% endhighlight %}
-
-## Lists
-
-Unordered list example:
-* Unordered list item 1
-* Unordered list item 2
-* Unordered list item 3
-* Unordered list item 4
-
-Ordered list example:
-1. Ordered list item 1
-2. Ordered list item 1
-3. Ordered list item 1
-4. Ordered list item 1
-
-{% highlight markdown %}
-* Unordered list item 1
-* Unordered list item 2
-
-1. Order list item 1
-2. Order list item 1
-{% endhighlight %}
-
-## Emoji support :star:
-
-Emoji's can be used everywhere in :cat2: your markdown!
-
-## Quotes
-
-A quote looks like this:
-
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna.
-
-{% highlight markdown %}
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna.
-{% endhighlight %}
-
-## Media
-
-Images can be added with a default `<img>` tag.
-If you wish that an image can be enlarged on click use the image include tag. You can pass 3 variables:
-- `path`: Image to show in the blog post.
-- `path-detail`: Image to show when enlarging.
-- `alt`: Alt text for image in blog post.
-
-{% include image.html path="documentation/sample-image.jpg" path-detail="documentation/sample-image@2x.jpg" alt="Sample image" %}
-
-{% highlight html %}
-{% include image.html path="documentation/sample-image.jpg" path-detail="documentation/sample-image@2x.jpg" alt="Sample image" %}
-{% endhighlight %}
-
-Videos can be added and are responsive by default (4x3 by default, 16x9 with extra class).
-
-<div class="embed-responsive embed-responsive-16by9">
-<iframe src="https://www.youtube.com/embed/vO7m8Hre72E?modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
-</div>
-
-
-{% highlight html %}
-<div class="embed-responsive embed-responsive-16by9">
-<iframe src="url-to-video" frameborder="0" allowfullscreen></iframe>
-</div>
-{% endhighlight %}
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
