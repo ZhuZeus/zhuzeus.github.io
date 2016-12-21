@@ -89,7 +89,6 @@ button.button-primary:focus {
 */
 
 .intro-header {
-  border-top: 5px solid white;
   background-color:$mono-color;
 }
 
@@ -238,7 +237,7 @@ button.button-primary:focus {
 	transition: all 0.4s ease-in-out 0.2s;
 }
 
-.ch-img-1 { 
+.ch-img-1 {
 	background-image: url(#{$avatar});
 }
 

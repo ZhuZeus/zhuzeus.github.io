@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
 
     {% include meta.html %}
 
@@ -23,10 +23,11 @@
       <div class="container">
         <div class="post-heading">
             <h1>{{page.title}}</h1>
-            <span class="meta">Posted by <a href="{{ site.baseurl }}/about"> {{page.author}}
+            <span class="meta"><a href="{{ site.baseurl }}/about"> {{page.author}}
             </a> on {{ page.date | date: "%B %e, %Y" }}
-            <a href="{{ site.baseurl }}/"> { Return to Blog }</a>
+              <br>
             </span>
+
         </div>
             
       </div>

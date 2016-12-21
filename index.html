@@ -3,16 +3,17 @@ layout: default
 ---
 
 <div class="posts">
+  <!-- site.posts会遍历全部的_post文章 -->
   {% for post in site.posts %}
     <article class="post">
-
+      <!-- site.baseurl表示你的博客主页地址，例如我的https://zhuzeus.github.io -->
+      <!-- site.url，表示你分页的地址 -->
+      <!-- post.title，表示你在post中定义的titile,每个post对象的title都不一样 -->
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
       <div class="entry">
+        <!--post.excert表示一个对象 -->
         {{ post.excerpt }}
       </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="button button-primary">Read More</a>
     </article>
   {% endfor %}
 </div>
