@@ -183,15 +183,13 @@ author: Joey - 朱勇军
 ------    
    * 新建jekyll模板
    
-     在你完成了之前搭建jekyll本地环境前提下,运行:
-      
-      ```
-       $jekyll new NewTheme
+     在你完成了之前搭建jekyll本地环境前提下,运行
        
-       $cd NewTheme
+         $jekyll new NewTheme
+       
+         $cd NewTheme
         
-       $jekyll serve -watch
-      ```
+         $jekyll serve -watch
       
       这样就在本地新建了一个名为NewTheme的文件夹,在浏览器中输入 localhost:4000 ,就可以看到jekyll的默认模板
     
