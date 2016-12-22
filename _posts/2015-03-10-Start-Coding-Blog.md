@@ -121,7 +121,7 @@ author: Joey - 朱勇军
   
    2, 你也可以第一时间在Setting中查看结果.<br>
   
-   3, 也可以来看看github的[异常收集](https://help.github.com/articles/troubleshooting-github-pages-builds/)
+   3, 或者来看看github的[异常收集](https://help.github.com/articles/troubleshooting-github-pages-builds/)
     
 &emsp;&emsp;&emsp;&emsp;
    
@@ -130,7 +130,7 @@ author: Joey - 朱勇军
   
    * MarkDown简介
      
-      由于_post文件中文件按照.md格式编写，有必要熟悉markdown语法。markdown是一种适合在网络上编辑的语言，便于在各种博文中编辑修改文字，链接，图片等. MarkDown是一种书写格式，最终在网页中显示还是会解析成HTML语言。
+      由于_post文件中文件按照.md格式编写，有必要熟悉markdown语法。markdown是一种适合在网络上编辑的语言，便于在各种博文中编辑修改文字，链接，图片等. MarkDown是一种书写格式，最终在网页中显示还是会解析成HTML语言. 简书网页版比较好的支持 .md 文件在线编辑,github上的仓库 README.md 文件也是markdown编写，可以试着编写查看效果.
      
    * MarkDown编辑器
      
@@ -175,8 +175,47 @@ author: Joey - 朱勇军
       3，---要在最左边，否则将没有分割线效果；
       
       4, 不要忽视书写博客时的缩进,这将很大程度影响解析格式,尽量按照文章应该的排版格式书写,中文标点应该尽量避免.
+    
+    
+    
+&emsp;&emsp;&emsp;&emsp;     
       
 ### 自己动手写主题
 ------    
+   * 新建jekyll模板
+   
+     在你完成了之前搭建jekyll本地环境前提下,运行:
       
+      ```
+       $jekyll new NewTheme
+       
+       $cd NewTheme
+        
+       $jekyll serve -watch
+      ```
+      这样就在本地新建了一个名为NewTheme的文件夹,在浏览器中输入 localhost:4000 ,就可以看到jekyll的默认模板
     
+   * jekyll文件修改   
+   
+     1，在深入理解了Jekyll前提下，进行后续操作. 删掉jekyll中一些不必要的文件，保留以下即可:
+     
+      ```
+      ├── index.html        #主页面
+      ├── _config.yml       # Jekyll核心配置文件
+      ├── feed.xml          # 实现RSS订阅功能
+      ├── Gemfile           # Ruby 配置文件，jekyll依赖ruby
+      ├── Gemfile.lock      # 同上
+      ├── css
+      │   └── markdown.css    # 提取上面_site/css/main.css中设置html部分
+      │   └── highlight.css   # 提取上面_site/css/main.css中语法高亮部分
+      ├── _includes
+      ├── _layouts
+      │   └── post.html       # 将要显示你文章内容的html页
+      ├── _posts
+      │   └── 2016-08-24-welcome-to-jekyll.markdown #jekyll默认文章，可删除
+      ```
+      
+      2， 接下来，按照jekyll语法，往工程的 _layout,_includes 中添加对象的html文件，新建 asstes(文件名随意)并向其中添加图片或者css. 
+      
+      3，说得比较简陋，实际上需要你在掌握jekyll语法的前提下，还要了解到前端 js,html,css的相关知识就能自己给自己设计模板了.
+      
