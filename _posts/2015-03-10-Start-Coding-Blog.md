@@ -33,37 +33,37 @@ author: Joey - 朱勇军
 ### Mac搭建Jekyll本地环境
 -------
  
- * jekyll是什么？
+* jekyll是什么？
 
 ​     &emsp;&emsp;&emsp;&emsp;&emsp;jekyll是种简单的标记语言.因为其没有数据库(自然也没有了评论功能),不需要迭代的特性经常用来编写静态博客网站. 其优势在于不需要写html语言,因此能更多的把焦点放在博文编写中.
- 
  * 搭建本地调试环境
    
-   1, [安装gem](https://rubygems.org/pages/download#formats)(如果没有安装Rubygems).
+  1, [安装gem](https://rubygems.org/pages/download#formats)(如果没有安装Rubygems).
    
-     ![theme](/images/rubygems.png)
+   ![theme](/images/rubygems.png)
    
-   2, 通过RubyGems安装jekyll,打开终端输入以下命令：
+  2, 通过RubyGems安装jekyll,打开终端输入以下命令：
    
       ```
-   $ gem install jekyll
+    $ gem install jekyll
       ```
       
-      &emsp;&emsp;&emsp;&emsp;需要注意的是,githubpages的版本有可能和你本地版本不一致,导致本地能够跑但是 &emsp;&emsp;&emsp;&emsp;github出错.这时需要执行:
+   &emsp;&emsp;&emsp;&emsp;需要注意的是,githubpages的版本有可能和你本地版本不一致,导致本地能够跑但是 &emsp;&emsp;&emsp;&emsp;github出错.这时需要执行:
    
       ```
-   $ jekyll --version
-   $ gem list jekyll
+    $ jekyll --version
+    $ gem list jekyll
       ```
       
-      &emsp;&emsp;&emsp;&emsp;对比gem 中的jekyll和本地jekyll版本检查是否为最新版本.更新Jekyll：
+   &emsp;&emsp;&emsp;&emsp;对比gem 中的jekyll和本地jekyll版本检查是否为最新版本.更新Jekyll：
+    
       ```
-   $ gem update jekyll
+    $ gem update jekyll
       ```  
       
-      &emsp;&emsp;&emsp;&emsp;在下载jekyll的时候，终端刚开始没有进度条显示，请耐心等待。如遇到问题,可在&emsp;&emsp;&emsp;&emsp;  [jekyll github社区](https://github.com/jekyll/jekyll/issues/new)发布Issues.
+   &emsp;&emsp;&emsp;&emsp;在下载jekyll的时候，终端刚开始没有进度条显示，请耐心等待。如遇到问题,可在&emsp;&emsp;&emsp;&emsp;  [jekyll github社区](https://github.com/jekyll/jekyll/issues/new)发布Issues.
       
-   3, 将你下载或者github生成的jekyll主题用编辑器(编辑器如：[Atom](https://atom.io/),[sublime](http://www.sublimetext.com/),[WebStorm](http://www.jetbrains.com/webstorm/))打开,开始本地调试:
+  3, 将你下载或者github生成的jekyll主题用编辑器(编辑器如：[Atom](https://atom.io/),[sublime](http://www.sublimetext.com/),[WebStorm](http://www.jetbrains.com/webstorm/))打开,开始本地调试:
      
       ```
       $cd to_your_project_path
@@ -93,15 +93,15 @@ author: Joey - 朱勇军
    
    注： 主题是github中生成省略，仓库中已有代码，可跳过此操作进行下一步.
   
-  * 将代码上传至github pages 专用仓库
+   * 将代码上传至github pages 专用仓库
   
-    1， 进入代码存放路径:
+   1， 进入代码存放路径:
     
      ```
      $cd your_project_path
      ```` 
    
-    2, 初始化仓库，将本地仓库和远程仓库关联，并将代码提交到master分支
+   2, 初始化仓库，将本地仓库和远程仓库关联，并将代码提交到master分支
      
       ```
       $git init //初始化仓库
@@ -113,11 +113,11 @@ author: Joey - 朱勇军
       ```
    将本地**master**分支文件提交到远程**master**中. 注意,如果是username.github,io域名的博客，都只能在master分支.
   
-  * 访问你github的远程地址试试吧.
+   * 访问你github的远程地址试试吧.
    
-    1, 远程地址默认为username.github.io,在Setting中可查看，其他格式的域名将不能被 &emsp;&emsp;&emsp;&emsp;通过.如果错误，github会发邮件通知.<br>
-    2, 你也可以第一时间在Setting中查看结果.<br>
-    3, 也可以来看看github的[异常收集](https://help.github.com/articles/troubleshooting-github-pages-builds/)
+   1, 远程地址默认为username.github.io,在Setting中可查看，其他格式的域名将不能被 &emsp;&emsp;&emsp;&emsp;通过.如果错误，github会发邮件通知.<br>
+   2, 你也可以第一时间在Setting中查看结果.<br>
+   3, 也可以来看看github的[异常收集](https://help.github.com/articles/troubleshooting-github-pages-builds/)
     
 &emsp;&emsp;&emsp;&emsp;
    
@@ -153,17 +153,7 @@ author: Joey - 朱勇军
           需要注意的是，插入图片为了显示更好看，最好换行插入,将插入图片标记语言单
           独一行.
        
-      4，以上介绍大概了解了markdown吗？[这里](http://www.appinn.com/markdown/#blockquote)可以看到更详细的md语法.  
-   
-   * 踩过得坑：
-     
-      1，不同的md编辑器显示的解析后格式都是不同的，在github上次后，需要确认效果无误
-      
-      2，在github pages的md语法中，特殊符号的上一行和下一行不能有内容，否则当做正常符号；
-      
-      3，---要在最左边，否则将没有分割线效果；
-      
-      
+      4，以上介绍大概了解了markdown吗？[这里](http://www.appinn.com/markdown/#blockquote)可以看到更详细的md语法.         
    
    * 调试并发布文章
         
@@ -172,7 +162,14 @@ author: Joey - 朱勇军
        动一个端口，否则会端口冲突，需要更换启动端口)在网页中查看效果,提交到github的m-
        aster分支，等待处理即可。
          
-     
+   * 踩过得坑：
+         
+      1，不同的md编辑器显示的解析后格式都是不同的，在github上次后，需要确认效果无误
+           
+      2，在github pages的md语法中，特殊符号的上一行和下一行不能有内容，否则当做正常符号；
+           
+      3，---要在最左边，否则将没有分割线效果；
+      
 ### 自己动手写主题
 ------    
       
