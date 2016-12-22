@@ -192,6 +192,7 @@ author: Joey - 朱勇军
         
        $jekyll serve -watch
       ```
+      
       这样就在本地新建了一个名为NewTheme的文件夹,在浏览器中输入 localhost:4000 ,就可以看到jekyll的默认模板
     
    * jekyll文件修改   
