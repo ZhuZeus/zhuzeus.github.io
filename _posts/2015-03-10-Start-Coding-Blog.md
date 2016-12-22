@@ -38,9 +38,13 @@ author: Joey - 朱勇军
 ​     &emsp;&emsp;&emsp;&emsp;&emsp;jekyll是种简单的标记语言.因为其没有数据库(自然也没有了评论功能),不需要迭代的特性经常用来编写静态博客网站. 其优势在于不需要写html语言,因此能更多的把焦点放在博文编写中.
  * 搭建本地调试环境
    
+   &emsp;&emsp;
+   
   1, [安装gem](https://rubygems.org/pages/download#formats)(如果没有安装Rubygems).
    
    ![theme](/images/rubygems.png)
+   
+   &emsp;&emsp;
    
   2, 通过RubyGems安装jekyll,打开终端输入以下命令:
   
@@ -57,6 +61,8 @@ author: Joey - 朱勇军
       
    &emsp;&emsp;&emsp;&emsp;在下载jekyll的时候，终端刚开始没有进度条显示，请耐心等待。如遇到问题,可在&emsp;&emsp;&emsp;&emsp;  [jekyll github社区](https://github.com/jekyll/jekyll/issues/new)发布Issues.
       
+   &emsp;&emsp;
+      
   3, 将你下载或者github生成的jekyll主题用编辑器(编辑器如：[Atom](https://atom.io/),[sublime](http://www.sublimetext.com/),[WebStorm](http://www.jetbrains.com/webstorm/))打开,开始本地调试:
      
       $cd to_your_project_path
@@ -68,6 +74,8 @@ author: Joey - 朱勇军
       $jekyll serve -watch
          
   如果没有错误，即可点[这里](http://localhost:4000)看到效果.如有启动报错，仔细查看jekyll输入日志，问题比较好解决，无需害怕。
+      
+   &emsp;&emsp;   
       
   4，启动的页面是主页面的index.html,一般的博客主页面会有如下代码(显示博文的主页):
      
@@ -83,7 +91,7 @@ author: Joey - 朱勇军
    
    注： 主题是github中生成省略，仓库中已有代码，可跳过此操作进行下一步.
   
-  * 将代码上传至github pages 专用仓库
+ * 将代码上传至github pages 专用仓库
   
    1， 进入代码存放路径:
     
@@ -158,6 +166,8 @@ author: Joey - 朱勇军
       2，在github pages的md语法中，特殊符号的上一行和下一行不能有内容，否则当做正常符号；
            
       3，---要在最左边，否则将没有分割线效果；
+      
+      4, 不要忽视书写博客时的缩进格式，这将很大程度影响解析格式。尽量按照文章应该的排版格式书写,中文标点应该尽量避免.
       
 ### 自己动手写主题
 ------    
