@@ -13,8 +13,8 @@ author: Joey - 朱勇军
 ```
 
 
-&emsp;&emsp;&emsp;&emsp;
-### 搭建步骤简介
+ &emsp;&emsp;&emsp;&emsp;
+ >### 搭建步骤简介
  ------
  + 达到[这样的](https://zhuzeus.github.io)博客效果,首先需要创建一个github私人仓库xxx.github.io(这个将是你的博客域名)。
  
@@ -27,7 +27,7 @@ author: Joey - 朱勇军
  + 为方便调试修改，我们需要开始学习[jekyll基础语法](http://jekyllcn.com/docs/installation/ "jekyll中文网").
  
 &emsp;&emsp;&emsp;&emsp;
-### Mac搭建Jekyll本地环境
+>### Mac搭建Jekyll本地环境
  ------
  * jekyll是什么？
 
@@ -75,7 +75,7 @@ author: Joey - 朱勇军
    
    
   &emsp;&emsp;&emsp;&emsp;
-### 将主题发布到Github Pages
+>### 将主题发布到Github Pages
    ------
    注： 主题是github中生成省略，仓库中已有代码，可跳过此操作进行下一步.
   
@@ -104,7 +104,7 @@ author: Joey - 朱勇军
     3, 也可以来看看github的[异常收集](https://help.github.com/articles/troubleshooting-github-pages-builds/)
     
    &emsp;&emsp;&emsp;&emsp;
-### 写篇博客试试水
+>### 写篇博客试试水
   ------   
    * MarkDown简介
      
@@ -146,7 +146,7 @@ author: Joey - 朱勇军
        master分支，等待处理即可。
          
       &emsp;&emsp;&emsp;&emsp;
-### 自己动手写主题
+>### 自己动手写主题
   ------     
       
     
