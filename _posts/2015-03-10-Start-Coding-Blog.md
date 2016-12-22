@@ -177,7 +177,6 @@ author: Joey - 朱勇军
       4, 不要忽视书写博客时的缩进,这将很大程度影响解析格式,尽量按照文章应该的排版格式书写,中文标点应该尽量避免.
     
     
-    
 &emsp;&emsp;&emsp;&emsp;     
       
 ### 自己动手写主题
@@ -199,21 +198,18 @@ author: Joey - 朱勇军
    
      1，在深入理解了Jekyll前提下，进行后续操作. 删掉jekyll中一些不必要的文件，保留以下即可:
      
-       ```
-       ├── index.html        #主页面
-       ├── _config.yml       # Jekyll核心配置文件
-       ├── feed.xml          # 实现RSS订阅功能
-       ├── Gemfile           # Ruby 配置文件，jekyll依赖ruby
-       ├── Gemfile.lock      # 同上
-       ├── css
-       │   └── markdown.css    # 提取上面_site/css/main.css中设置html部分
-       │   └── highlight.css   # 提取上面_site/css/main.css中语法高亮部分
-       ├── _includes
-       ├── _layouts
-       │   └── post.html       # 将要显示你文章内容的html页
-       ├── _posts
-       │   └── 2016-08-24-welcome-to-jekyll.markdown #jekyll默认文章，可删除
-       ```
+         ```html
+          ├── index.html        #主页面
+          ├── _config.yml       # Jekyll核心配置文件
+          ├── feed.xml          # 实现RSS订阅功能,可以去掉
+          ├── Gemfile           # Ruby 配置文件，jekyll依赖ruby
+          ├── Gemfile.lock      # 同上
+          ├── _includes         # 放一些组件脚本，可以通过jekyll引用到其他地方
+          ├── _layouts
+          │   └── post.html       # 将要显示你文章内容的html页
+          ├── _posts
+          │   └── 2016-08-24-welcome-to-jekyll.markdown #jekyll默认文章，可删除
+        ```
       
       2， 接下来，按照jekyll语法，往工程的 _layout,_includes 中添加对象的html文件，新建 asstes(文件名随意)并向其中添加图片或者css. 
       
