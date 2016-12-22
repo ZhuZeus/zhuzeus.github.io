@@ -103,8 +103,10 @@ author: Joey - 朱勇军
     2, 你也可以第一时间在Setting中查看结果.<br>
     3, 也可以来看看github的[异常收集](https://help.github.com/articles/troubleshooting-github-pages-builds/)
     
-   &emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;
+   
 ### 写篇博客试试水
+-----
   
    * MarkDown简介
      
