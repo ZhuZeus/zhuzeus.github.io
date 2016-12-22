@@ -200,19 +200,19 @@ author: Joey - 朱勇军
      1，在深入理解了Jekyll前提下，进行后续操作. 删掉jekyll中一些不必要的文件，保留以下即可:
      
       ```
-      ├── index.html        #主页面
-      ├── _config.yml       # Jekyll核心配置文件
-      ├── feed.xml          # 实现RSS订阅功能
-      ├── Gemfile           # Ruby 配置文件，jekyll依赖ruby
-      ├── Gemfile.lock      # 同上
-      ├── css
-      │   └── markdown.css    # 提取上面_site/css/main.css中设置html部分
-      │   └── highlight.css   # 提取上面_site/css/main.css中语法高亮部分
-      ├── _includes
-      ├── _layouts
-      │   └── post.html       # 将要显示你文章内容的html页
-      ├── _posts
-      │   └── 2016-08-24-welcome-to-jekyll.markdown #jekyll默认文章，可删除
+       ├── index.html        #主页面
+       ├── _config.yml       # Jekyll核心配置文件
+       ├── feed.xml          # 实现RSS订阅功能
+       ├── Gemfile           # Ruby 配置文件，jekyll依赖ruby
+       ├── Gemfile.lock      # 同上
+       ├── css
+       │   └── markdown.css    # 提取上面_site/css/main.css中设置html部分
+       │   └── highlight.css   # 提取上面_site/css/main.css中语法高亮部分
+       ├── _includes
+       ├── _layouts
+       │   └── post.html       # 将要显示你文章内容的html页
+       ├── _posts
+       │   └── 2016-08-24-welcome-to-jekyll.markdown #jekyll默认文章，可删除
       ```
       
       2， 接下来，按照jekyll语法，往工程的 _layout,_includes 中添加对象的html文件，新建 asstes(文件名随意)并向其中添加图片或者css. 
