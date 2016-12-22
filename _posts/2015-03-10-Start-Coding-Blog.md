@@ -14,8 +14,10 @@ author: Joey - 朱勇军
 
 
 &emsp;&emsp;&emsp;&emsp;
+
 ### 搭建步骤简介
  ------
+
  + 达到[这样的](https://zhuzeus.github.io)博客效果,首先需要创建一个github私人仓库xxx.github.io(这个将是你的博客域名)。
  
  + 可以Setting中的Github Pages 栏中选择想要的主题，便会在你之前的空仓库中生成模板代码,即jekyll模板代码(样式单一,不推荐).
@@ -46,27 +48,35 @@ author: Joey - 朱勇军
       ```
    $ gem install jekyll
       ```
+      
       &emsp;&emsp;&emsp;&emsp;需要注意的是,githubpages的版本有可能和你本地版本不一致,导致本地能够跑但是 &emsp;&emsp;&emsp;&emsp;github出错.这时需要执行:
+   
       ```
    $ jekyll --version
    $ gem list jekyll
       ```
+      
       &emsp;&emsp;&emsp;&emsp;对比gem 中的jekyll和本地jekyll版本检查是否为最新版本.更新Jekyll：
       ```
    $ gem update jekyll
       ```  
+      
       &emsp;&emsp;&emsp;&emsp;在下载jekyll的时候，终端刚开始没有进度条显示，请耐心等待。如遇到问题,可在&emsp;&emsp;&emsp;&emsp;  [jekyll github社区](https://github.com/jekyll/jekyll/issues/new)发布Issues.
       
    3, 将你下载或者github生成的jekyll主题用编辑器(编辑器如：[Atom](https://atom.io/),[sublime](http://www.sublimetext.com/),[WebStorm](http://www.jetbrains.com/webstorm/))打开,开始本地调试:
+     
       ```
     $cd to_your_project_path
     $jekyll build
     $jekyll serve
       ```
+      
     执行下面代码启动jekyll可以无需每次build，jekyll会自动发布到本地服务器，只需要刷新页面即可。但是jekyll全局文件_config.yml改变是需要重新 build的.
+  
       ```
     $jekyll serve -watch
-      ```     
+      ```  
+         
    如果没有错误，即可点[这里](http://localhost:4000)看到效果.如有启动报错，仔细查看jekyll输入日志，问题比较好解决，无需害怕。
       
   4，启动的页面是主页面的index.html,一般的博客主页面会有如下代码(显示博文的主页):
@@ -85,12 +95,14 @@ author: Joey - 朱勇军
   
   * 将代码上传至github pages 专用仓库
   
-    1， 进入代码存放路径：
+    1， 进入代码存放路径:
+    
      ```
   $cd your_project_path
-     ``` 
+     ```` 
    
     2, 初始化仓库，将本地仓库和远程仓库关联，并将代码提交到master分支
+     
       ```
   $git init //初始化仓库
   $git remote add origin remote-url //关联远程仓库,remote-url为远程仓库链接
