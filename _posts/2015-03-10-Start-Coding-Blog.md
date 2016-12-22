@@ -16,7 +16,7 @@ author: Joey - 朱勇军
 &emsp;&emsp;&emsp;&emsp;
 
 ### 搭建步骤简介
- ------
+------
 
  + 达到[这样的](https://zhuzeus.github.io)博客效果,首先需要创建一个github私人仓库xxx.github.io(这个将是你的博客域名)。
  
@@ -155,6 +155,15 @@ author: Joey - 朱勇军
        
       4，以上介绍大概了解了markdown吗？[这里](http://www.appinn.com/markdown/#blockquote)可以看到更详细的md语法.  
    
+   * 踩过得坑：
+     
+      1，不同的md编辑器显示的解析后格式都是不同的，在github上次后，需要确认效果无误
+      
+      2，在github pages的md语法中，特殊符号的上一行和下一行不能有内容，否则当做正常符号；
+      
+      3，---要在最左边，否则将没有分割线效果；
+      
+      
    
    * 调试并发布文章
         
