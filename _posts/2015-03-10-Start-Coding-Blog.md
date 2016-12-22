@@ -13,8 +13,8 @@ author: Joey - 朱勇军
 ```
 
 
- &emsp;&emsp;&emsp;&emsp;
- >### 搭建步骤简介
+&emsp;&emsp;&emsp;&emsp;
+### 搭建步骤简介
  ------
  + 达到[这样的](https://zhuzeus.github.io)博客效果,首先需要创建一个github私人仓库xxx.github.io(这个将是你的博客域名)。
  
@@ -27,7 +27,7 @@ author: Joey - 朱勇军
  + 为方便调试修改，我们需要开始学习[jekyll基础语法](http://jekyllcn.com/docs/installation/ "jekyll中文网").
  
 &emsp;&emsp;&emsp;&emsp;
->### Mac搭建Jekyll本地环境
+### Mac搭建Jekyll本地环境
  ------
  * jekyll是什么？
 
@@ -75,8 +75,8 @@ author: Joey - 朱勇军
    
    
   &emsp;&emsp;&emsp;&emsp;
->### 将主题发布到Github Pages
-   ------
+##### 将主题发布到Github Pages
+   ========
    注： 主题是github中生成省略，仓库中已有代码，可跳过此操作进行下一步.
   
   * 将代码上传至github pages 专用仓库
@@ -104,8 +104,8 @@ author: Joey - 朱勇军
     3, 也可以来看看github的[异常收集](https://help.github.com/articles/troubleshooting-github-pages-builds/)
     
    &emsp;&emsp;&emsp;&emsp;
->### 写篇博客试试水
-  ------   
+### 写篇博客试试水
+  
    * MarkDown简介
      
       由于_post文件中文件按照.md格式编写，有必要熟悉markdown语法。markdown是一种适合在网络上编辑的语言，便于在各种博文中编辑修改文字，链接，图片等. MarkDown是一种书写格式，最终在网页中显示还是会解析成HTML语言。
@@ -141,12 +141,12 @@ author: Joey - 朱勇军
    * 调试并发布文章
         
        需要注意的是，_post中的文章必须是xxxx-xx-xx-titile (年-月-日-名称命名) 然后
-       在本地调试通过jekyll本地服务器在 http://localhost:4000 (默认地址，一次只能
-       启动一个端口，否则会端口冲突，需要更换启动端口)在网页中查看效果，提交到github的
-       master分支，等待处理即可。
+       在本地调试通过jekyll本地服务器在 http://localhost:4000 (默认地址,一次只能启
+       动一个端口，否则会端口冲突，需要更换启动端口)在网页中查看效果,提交到github的m-
+       aster分支，等待处理即可。
          
-      &emsp;&emsp;&emsp;&emsp;
->### 自己动手写主题
-  ------     
+     
+### 自己动手写主题
+     
       
     
