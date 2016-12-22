@@ -18,9 +18,9 @@ author: Joey - 朱勇军
 ### 搭建步骤简介
 ------
 
- + 达到[这样的](https://zhuzeus.github.io)博客效果,首先需要创建一个github私人仓库xxx.github.io(这个将是你的博客域名)。
+ + 首先需要创建一个github私人仓库username.github.io(这个将是你的博客域名)。
  
- + 可以Setting中的Github Pages 栏中选择想要的主题，便会在你之前的空仓库中生成模板代码,即jekyll模板代码(样式单一,不推荐).
+ + 可以Setting中的Github Pages 栏中选择想要的主题，便会在你之前的空仓库中生成模板代码,即jekyll模板代码(github pages提供主题样式单一,不推荐).
  
    ![theme](/images/choose_theme.png)
    
@@ -35,7 +35,7 @@ author: Joey - 朱勇军
  
  * jekyll是什么？
 
-​     &emsp;&emsp;&emsp;&emsp;&emsp;jekyll是种简单的标记语言. 因为其没有数据库(自然也没有了评论功能),不需要迭代的特&#160; &#160; &#160; &#160;&#160;性经常用来编写静态博客网站. 其优势在于不需要写html语言,因此能更多的把焦点 &emsp;&emsp;&emsp;&emsp;&emsp;放在博文编写中。
+​     &emsp;&emsp;&emsp;&emsp;&emsp;jekyll是种简单的标记语言.因为其没有数据库(自然也没有了评论功能),不需要迭代的特性经常用来编写静态博客网站. 其优势在于不需要写html语言,因此能更多的把焦点放在博文编写中.
  
  * 搭建本地调试环境
    
@@ -66,15 +66,15 @@ author: Joey - 朱勇军
    3, 将你下载或者github生成的jekyll主题用编辑器(编辑器如：[Atom](https://atom.io/),[sublime](http://www.sublimetext.com/),[WebStorm](http://www.jetbrains.com/webstorm/))打开,开始本地调试:
      
       ```
-    $cd to_your_project_path
-    $jekyll build
-    $jekyll serve
+      $cd to_your_project_path
+      $jekyll build
+      $jekyll serve
       ```
       
     执行下面代码启动jekyll可以无需每次build，jekyll会自动发布到本地服务器，只需要刷新页面即可。但是jekyll全局文件_config.yml改变是需要重新 build的.
   
       ```
-    $jekyll serve -watch
+      $jekyll serve -watch
       ```  
          
    如果没有错误，即可点[这里](http://localhost:4000)看到效果.如有启动报错，仔细查看jekyll输入日志，问题比较好解决，无需害怕。
@@ -98,18 +98,18 @@ author: Joey - 朱勇军
     1， 进入代码存放路径:
     
      ```
-  $cd your_project_path
+     $cd your_project_path
      ```` 
    
     2, 初始化仓库，将本地仓库和远程仓库关联，并将代码提交到master分支
      
       ```
-  $git init //初始化仓库
-  $git remote add origin remote-url //关联远程仓库,remote-url为远程仓库链接
-  $git add . <将所有的文件添加到git索引>
-  $git commit -m “” 提交文件，添加描述
-  $git branch --set-upstream local-branch origin/remote-branch //将本地分支与远程分支关联
-  $git push
+      $git init //初始化仓库
+      $git remote add origin remote-url //关联远程仓库,remote-url为远程仓库链接
+      $git add . <将所有的文件添加到git索引>
+      $git commit -m “” 提交文件，添加描述
+      $git branch --set-upstream local-branch origin/remote-branch //将本地分支与远程分支关联
+      $git push
       ```
    将本地**master**分支文件提交到远程**master**中. 注意,如果是username.github,io域名的博客，都只能在master分支.
   
