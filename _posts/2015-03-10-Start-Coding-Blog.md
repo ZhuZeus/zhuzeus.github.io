@@ -27,8 +27,10 @@ author: Joey - 朱勇军
  + 为方便调试修改，我们需要开始学习[jekyll基础语法](http://jekyllcn.com/docs/installation/ "jekyll中文网").
  
 &emsp;&emsp;&emsp;&emsp;
+
 ### Mac搭建Jekyll本地环境
- ------
+-------
+ 
  * jekyll是什么？
 
 ​     &emsp;&emsp;&emsp;&emsp;&emsp;jekyll是种简单的标记语言. 因为其没有数据库(自然也没有了评论功能),不需要迭代的特&#160; &#160; &#160; &#160;&#160;性经常用来编写静态博客网站. 其优势在于不需要写html语言,因此能更多的把焦点 &emsp;&emsp;&emsp;&emsp;&emsp;放在博文编写中。
@@ -74,9 +76,11 @@ author: Joey - 朱勇军
    这段代码的意思是:首先在头文件中加载defaut.html(_layout文件中),按时间倒叙遍历_posts全部文章,读取post中定义的标题和文章，显示在主页. 看到这儿，如果对jekyll的site和post对象不了解，先看看[这个](http://jekyllcn.com/docs/variables/).
    
    
-  &emsp;&emsp;&emsp;&emsp;
+ &emsp;&emsp;&emsp;&emsp;
+ 
 ##### 将主题发布到Github Pages
-   ========
+------
+   
    注： 主题是github中生成省略，仓库中已有代码，可跳过此操作进行下一步.
   
   * 将代码上传至github pages 专用仓库
