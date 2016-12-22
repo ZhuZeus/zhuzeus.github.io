@@ -38,7 +38,6 @@ author: Joey - 朱勇军
 ​     &emsp;&emsp;&emsp;&emsp;&emsp;jekyll是种简单的标记语言.因为其没有数据库(自然也没有了评论功能),不需要迭代的特性经常用来编写静态博客网站. 其优势在于不需要写html语言,因此能更多的把焦点放在博文编写中.
  * 搭建本地调试环境
    
-   &emsp;&emsp;
    
   1, [安装gem](https://rubygems.org/pages/download#formats)(如果没有安装Rubygems).
    
@@ -78,6 +77,12 @@ author: Joey - 朱勇军
    &emsp;&emsp;   
       
   4，启动的页面是主页面的index.html,一般的博客主页面会有如下代码(显示博文的主页):
+     
+   注：图片中的第一行注释<!--jekyll 头文件信息，表示显示.....-->是为了帮助理解，在发布时去掉. jekyll第一行必须是jekyll头文件也就是注释下面的代码:
+   
+    -----
+     layout:default
+    -----
      
    ![theme](/images/code.png)
      
