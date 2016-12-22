@@ -95,18 +95,20 @@ author: Joey - 朱勇军
   
    1， 进入代码存放路径:
     
-     $cd your_project_path
+       $cd your_project_path
    
    2, 初始化仓库，将本地仓库和远程仓库关联，并将代码提交到master分支
      
-      $git init //初始化仓库
-      $git remote add origin remote-url //关联远程仓库,remote-url为远程仓库链接
-      $git add . <将所有的文件添加到git索引>
-      $git commit -m “” 提交文件，添加描述
-      $git branch --set-upstream local-branch origin/remote-branch //将本地分支与远程分支关联
-      $git push
+       $git init //初始化仓库
+       //关联远程仓库,remote-url为远程仓库链接
+       $git remote add origin remote-url 
+       $git add . 
+       $git commit -m “提交文件，添加描述” 
+       //将本地分支与远程分支关联
+       $git branch --set-upstream local-branch origin/remote-branch 
+       $git push
      
-   将本地**master**分支文件提交到远程**master**中. 注意,如果是username.github,io域名的博客，都只能在master分支.
+      将本地**master**分支文件提交到远程**master**中. 注意,如果是username.github,io域名的博客，都只能在master分支.
   
  * 访问你github的远程地址试试吧.
    
@@ -167,7 +169,7 @@ author: Joey - 朱勇军
            
       3，---要在最左边，否则将没有分割线效果；
       
-      4, 不要忽视书写博客时的缩进格式，这将很大程度影响解析格式。尽量按照文章应该的排版格式书写,中文标点应该尽量避免.
+      4, 不要忽视书写博客时的缩进,这将很大程度影响解析格式,尽量按照文章应该的排版格式书写,中文标点应该尽量避免.
       
 ### 自己动手写主题
 ------    
