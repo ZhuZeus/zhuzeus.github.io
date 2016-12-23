@@ -8,7 +8,7 @@ author: Joey - 朱勇军
 
 &emsp;&emsp;&emsp;&emsp;     
                                                         
-###  Bintray有关设置
+### Bintray有关设置
 -------
 
  * 什么是Jcenter
@@ -58,5 +58,5 @@ author: Joey - 朱勇军
 
 &emsp;&emsp;&emsp;&emsp;  
                                                            
-###  配置Android项目，开始编写脚本
+### 配置Android项目，开始编写脚本
 -------
