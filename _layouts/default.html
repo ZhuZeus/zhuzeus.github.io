@@ -29,51 +29,37 @@
                <a href="{{ site.baseurl }}/about">关于</a>
                <a href="{{ site.baseurl }}/projects">项目</a>
              </nav>
+
            </header>
+             <div class="wrapper-footer">
+                 <div class="container">
+                     <footer class="footer">
+                         <div class="svg-icon">
+                             {% include svg-icons.html %}
+                         </div>
+                     </footer>
+                 </div>
+             </div>
+
          </div>
        </div>
 
 
-        <div class="wrapper-footer">
-            <div class="container">
-                <footer class="footer">
-                    <div class="svg-icon">
-                        {% include svg-icons.html %}
-                    </div>
-                </footer>
-            </div>
-        </div>
-        <!--<div class="container">-->
-            <!--<div class="space-extra-small"></div>-->
 
-            <!--<div class="centered">-->
-              <!--<ul class="ch-grid">-->
-                <!--<li>-->
-                    <!--<div class="ch-item ch-img-1">				-->
-                        <!--<div class="ch-info-wrap">-->
-                            <!--<div class="ch-info">-->
-                                <!--<div class="ch-info-front ch-img-1"></div>-->
-                                <!--<div class="ch-info-back">-->
-                                    <!--<h3>Zeus also my name</h3>-->
-                                    <!--<p></br><a href="https://github.com/{{ site.footer-links.github }}">View on Github</a></p>-->
-                                <!--</div>	-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</li>-->
-            <!--</ul>-->
-        <!--</div>-->
 
-             <!--<div class="space-extra-small"></div>-->
-            
-        <!--</div>-->
+
     </div>
+
+    <div class="empty-boader"></div>
+
 
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
 
-
     {% include analytics.html %}
   </body>
+
+
+
 </html>

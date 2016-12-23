@@ -27,11 +27,13 @@ body {
 .container {
   margin: 0 auto;
   max-width: 740px;
+  margin-top: 30px;
   height: auto;
   width: 100%;
 }
 
 .post-page {
+  margin-bottom: 40px;
   background: #CB4B16;
   padding: 100px;
 }
@@ -223,7 +225,7 @@ background: $lightGray;
 }
 
 nav {
-  float: right;
+  float: left;
   margin-top: 23px; 
   font-family: $helveticaNeue;
   font-size: 18px;

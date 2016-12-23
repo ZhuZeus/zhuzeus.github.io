@@ -95,7 +95,7 @@ button.button-primary:focus {
 	 */
 	padding-left: 100px;
 	padding-right: 100px;
-	padding-bottom: 100px;
+	padding-bottom: 20px;
 	padding-top: 20px;
 	background: #CB4B16;
 }
@@ -312,5 +312,10 @@ button.button-primary:focus {
 	transform: scale(1);
 	opacity: 1;
 	pointer-events: auto;
+}
+
+.empty-boader {
+	background: #FFFFFF;
+	height: 40px;
 }
 
