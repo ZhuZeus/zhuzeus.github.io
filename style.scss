@@ -9,6 +9,7 @@
 @import "variables";
 
 
+
 /**************/
 /* BASE RULES */
 /**************/
@@ -19,128 +20,137 @@ html {
 
 body {
   background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 16px/1.4 $helvetica;
   color: $darkGray;
 }
 
 .container {
   margin: 0 auto;
   max-width: 740px;
-  padding: 0 10px;
+  height: auto;
   width: 100%;
 }
 
+.post-page {
+  background: #CB4B16;
+  padding: 100px;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
-  font-weight: bold;
+font-family: $helveticaNeue;
+color: $darkerGray;
+font-weight: bold;
 
-  line-height: 1.7;
-  margin: 1em 0 15px;
-  padding: 0;
+line-height: 1.7;
+margin: 1em 0 15px;
+padding: 0;
 
-  @include mobile {
-    line-height: 1.4;
-  }
+@include mobile {
+  line-height: 1.4;
+}
 }
 
 h1 {
-  font-size: 30px;
-  color: $h1-color;
-  a {
-    color: inherit;
-  }
+font-size: 20px;
+color: $h1-color;
+a {
+  color: inherit;
+}
 }
 
 h2 {
-  font-size: 24px;
-  color: $h2-color;
+font-size: 18px;
+color: $h2-color;
 }
 
 h3 {
-  font-size: 20px;
-  color: $h3-color;
+font-size: 16px;
+color: $h3-color;
 }
 
 h4 {
-  font-size: 18px;
-  color: $h4-color;
+font-size: 14px;
+color: $h4-color;
 }
 
 p {
-  margin: 15px 0;
+font-size: 15px;
+margin: 14px 0;
+color: $gray;
+
 }
 
 a {
-  color: $link-color;
-  text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
-    color: darken($link-color,20);
-  }
+color: $link-color;
+text-decoration: none;
+  cursor: pointer;
+&:hover, &:active {
+  color: darken($link-color,20);
+}
 }
 
 ul, ol {
-  margin: 15px 0;
-  padding-left: 30px;
+margin: 15px 0;
+padding-left: 30px;
 }
 
 ul {
-  list-style-type: disc;
+list-style-type: disc;
 }
 
 ol {
-  list-style-type: decimal;
+list-style-type: decimal;
 }
 
 ol ul, ul ol, ul ul, ol ol {
-  margin: 0;
+margin: 0;
 }
 
 ul ul, ol ul {
-  list-style-type: circle;
+list-style-type: circle;
 }
 
 em, i {
-  font-style: italic;
+font-style: italic;
 }
 
 strong, b {
-  font-weight: bold;
+font-weight: bold;
 }
 
 img {
-  max-width: 100%;
+max-width: 100%;
 }
 
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
-  max-width: none;
+max-width: none;
 }
 
 .date {
-  font-style: italic;
-  color: $gray;
+font-style: italic;
+color: $gray;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+color: $black;
+background: $lightGray;
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
+color: $black;
+background: $lightGray;
 }
 
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /*********************/
@@ -201,6 +211,7 @@ img {
   letter-spacing: 1px;
 }
 
+
 .site-description {
   margin: -5px 0 0 0;
   color: $white;
@@ -226,7 +237,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $white;
+    color: white;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -278,13 +289,10 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
 }
 
 footer {
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
 }
 

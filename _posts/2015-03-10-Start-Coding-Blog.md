@@ -5,11 +5,8 @@ author: Joey - 朱勇军
 ---
 
 ```
-  · MAC环境下搭建jekyll本地环境
-  · 将本地jekyll博客托管至github
-  · Markdown + jekyll语法简介
-  · 快速开始博客（代码详解）
-  · 如何自己开发博客模板
+本文将介绍如何开始在本地搭建jekyll环境，以及搭建完成后如何将代码托管至Github Pages
+以及如何用Markdown编写博文，如何编写属于自己的博客模板。
 ```
 
 
@@ -33,36 +30,35 @@ author: Joey - 朱勇军
 ### Mac搭建Jekyll本地环境
 -------
  
-* jekyll是什么？
+> jekyll是种简单的标记语言.因为其没有数据库(自然也没有了评论功能),不需要迭代的特性经常用来编写静态博客网站. 其优势在于不需要写html语言,因此能更多的把焦点放在博文编写中.
 
-​     &emsp;&emsp;&emsp;&emsp;&emsp;jekyll是种简单的标记语言.因为其没有数据库(自然也没有了评论功能),不需要迭代的特性经常用来编写静态博客网站. 其优势在于不需要写html语言,因此能更多的把焦点放在博文编写中.
- * 搭建本地调试环境
+* 搭建本地调试环境
    
    
-  1, [安装gem](https://rubygems.org/pages/download#formats)(如果没有安装Rubygems).
+   1, [安装gem](https://rubygems.org/pages/download#formats)(如果没有安装Rubygems).
    
    ![theme](/images/rubygems.png)
    
    &emsp;&emsp;
    
-  2, 通过RubyGems安装jekyll,打开终端输入以下命令:
+   2, 通过RubyGems安装jekyll,打开终端输入以下命令:
   
-    $ gem install jekyll    
+      $ gem install jekyll    
       
    &emsp;&emsp;&emsp;&emsp;需要注意的是,githubpages的版本有可能和你本地版本不一致,导致本地能够跑但是 &emsp;&emsp;&emsp;&emsp;github出错.这时需要执行:
      
-    $ jekyll --version
-    $ gem list jekyll
+      $ jekyll --version
+      $ gem list jekyll
       
    &emsp;&emsp;&emsp;&emsp;对比gem 中的jekyll和本地jekyll版本检查是否为最新版本.更新Jekyll：
  
-    $ gem update jekyll  
+      $ gem update jekyll  
       
    &emsp;&emsp;&emsp;&emsp;在下载jekyll的时候，终端刚开始没有进度条显示，请耐心等待。如遇到问题,可在&emsp;&emsp;&emsp;&emsp;  [jekyll github社区](https://github.com/jekyll/jekyll/issues/new)发布Issues.
+
+   &emsp;
       
-   &emsp;&emsp;
-      
-  3, 将你下载或者github生成的jekyll主题用编辑器(编辑器如：[Atom](https://atom.io/),[sublime](http://www.sublimetext.com/),[WebStorm](http://www.jetbrains.com/webstorm/))打开,开始本地调试:
+   3, 将你下载或者github生成的jekyll主题用编辑器(编辑器如：[Atom](https://atom.io/),[sublime](http://www.sublimetext.com/),[WebStorm](http://www.jetbrains.com/webstorm/))打开,作者用的是webstorm,注册码网上搜的(罪过罪过). 打开后开始本地调试:
      
       $cd to_your_project_path
       $jekyll build
@@ -70,19 +66,21 @@ author: Joey - 朱勇军
       
   执行下面代码启动jekyll可以无需每次build，jekyll会自动发布到本地服务器，只需要刷新页面即可。但是jekyll全局文件_config.yml改变是需要重新 build的.
   
-      $jekyll serve -watch
+      $jekyll serve --watch
          
   如果没有错误，即可点[这里](http://localhost:4000)看到效果.如有启动报错，仔细查看jekyll输入日志，问题比较好解决，无需害怕。
       
-   &emsp;&emsp;   
+   &emsp;   
       
   4，启动的页面是主页面的index.html,一般的博客主页面会有如下代码(显示博文的主页):
      
-   注：图片中的第一行注释<!--jekyll 头文件信息，表示显示.....-->是为了帮助理解，在发布时去掉. jekyll第一行必须是jekyll头文件也就是注释下面的代码:
+   > 注：图片中的第一行注释<!--jekyll 头文件信息，表示显示.....-->是为了帮助理解，在发布时去掉. jekyll第一行必须是jekyll头文件也就是注释下面的代码:
    
+   ```
     -----
-     layout:default
+    layout:default
     -----
+   ```
      
    ![theme](/images/code.png)
      
@@ -189,7 +187,7 @@ author: Joey - 朱勇军
        
          $cd NewTheme
         
-         $jekyll serve -watch
+         $jekyll serve --watch
       
       这样就在本地新建了一个名为NewTheme的文件夹,在浏览器中输入 localhost:4000 ,就可以看到jekyll的默认模板
     
@@ -212,5 +210,5 @@ author: Joey - 朱勇军
       
      2， 接下来，按照jekyll语法，往工程的 _layout,_includes 中添加对象的html文件，新建 asstes(文件名随意)并向其中添加图片或者css. 
       
-     3，说得比较简陋，实际上需要你在掌握jekyll语法的前提下，还要了解到前端 js,html,css的相关知识就能自己给自己设计模板了.
+     3，说起来比较简单，实际上需要你在掌握jekyll语法的前提下，还要了解到前端 js,html,css的相关知识才能自己给自己设计模板.
       
