@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e84f7d62-c6fc-478d-bb3e-d58300a3d805" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-12-Upload-To-Jecenter.md" afterPath="$PROJECT_DIR$/_posts/2015-07-12-Upload-To-Jecenter.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/jcenter/choose_type.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/jcenter/repo_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-07-12-jcenter.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2015-07-12-Upload-To-Jecenter.md" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-03-10-Start-Coding-Blog.md" afterPath="$PROJECT_DIR$/_posts/2015-03-10-coding-blog.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,35 +28,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2015-03-10-Start-Coding-Blog.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015-03-10-Start-Coding-Blog.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="210">
-                <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1176">
-              <caret line="56" column="16" lean-forward="false" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="16" />
+            <state relative-caret-position="-147">
+              <caret line="8" column="80" lean-forward="false" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-07-12-Upload-To-Jecenter.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2015-07-12-Upload-To-Jecenter.md">
+      <file leaf-file-name="2015-07-12-jcenter.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-07-12-jcenter.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="323">
-                <caret line="60" column="4" lean-forward="false" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+              <first_editor relative-caret-position="-97">
+                <caret line="260" column="8" lean-forward="true" selection-start-line="260" selection-start-column="8" selection-end-line="260" selection-end-column="8" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -76,8 +68,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="20" />
+              <first_editor relative-caret-position="29">
+                <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -88,7 +80,7 @@
       <file leaf-file-name="_jekyll-mono.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_jekyll-mono.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
+            <state relative-caret-position="-544">
               <caret line="97" column="21" lean-forward="false" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
               <folding />
             </state>
@@ -252,6 +244,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="_sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhuzeus.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhuzeus.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -381,12 +387,12 @@
       <workItem from="1482139122871" duration="54841000" />
       <workItem from="1482398190743" duration="3000" />
       <workItem from="1482398200362" duration="1053000" />
-      <workItem from="1482399296781" duration="22930000" />
+      <workItem from="1482399296781" duration="33369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78965000" />
+    <option name="totallyTimeSpent" value="89404000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -461,13 +467,13 @@
         <state relative-caret-position="2478">
           <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
           <folding>
-            <marker date="1482490607000" expanded="true" signature="1345:1350" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="2703:3014" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="2788:2998" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="3069:3477" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="3099:3466" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="3184:3453" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="3184:3435" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="1345:1350" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="2703:3014" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="2788:2998" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="3069:3477" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="3099:3466" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="3184:3453" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="3184:3435" ph="..." />
           </folding>
         </state>
       </provider>
@@ -495,28 +501,28 @@
         <state relative-caret-position="231">
           <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
           <folding>
-            <marker date="1482490607000" expanded="true" signature="1470:1475" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="1570:1575" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="1570:1575" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="1570:1575" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="1570:1575" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="1570:1626" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="1570:1575" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="1684:2694" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="1775:2476" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="1810:2461" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="1831:2443" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="1882:2421" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="1937:2394" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="1987:2363" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="2121:2327" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="2760:5098" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="2789:5086" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="2833:5073" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="5132:5562" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="5162:5551" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="5194:5538" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="5229:5520" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="1470:1475" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="1570:1575" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="1570:1575" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="1570:1575" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="1570:1575" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="1570:1626" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="1570:1575" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="1684:2694" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="1775:2476" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="1810:2461" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="1831:2443" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="1882:2421" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="1937:2394" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="1987:2363" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="2121:2327" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="2760:5098" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="2789:5086" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="2833:5073" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="5132:5562" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="5162:5551" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="5194:5538" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="5229:5520" ph="..." />
           </folding>
         </state>
       </provider>
@@ -543,13 +549,13 @@
         <state relative-caret-position="252">
           <caret line="78" column="0" lean-forward="false" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="23" />
           <folding>
-            <marker date="1482490607000" expanded="true" signature="1345:1350" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="2703:3014" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="2788:2998" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="3069:3477" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="3099:3466" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="3184:3453" ph="..." />
-            <marker date="1482490607000" expanded="true" signature="3184:3435" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="1345:1350" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="2703:3014" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="2788:2998" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="3069:3477" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="3099:3466" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="3184:3453" ph="..." />
+            <marker date="1482747770000" expanded="true" signature="3184:3435" ph="..." />
           </folding>
         </state>
       </provider>
@@ -699,14 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_highlights.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -736,8 +734,8 @@
         <state relative-caret-position="240">
           <caret line="25" column="129" lean-forward="true" selection-start-line="25" selection-start-column="129" selection-end-line="25" selection-end-column="129" />
           <folding>
-            <element signature="e#1038#1044#0" expanded="true" />
-            <element signature="e#1044#1050#0" expanded="true" />
+            <element signature="e#1038#1044#0" expanded="false" />
+            <element signature="e#1044#1050#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -793,29 +791,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="20" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="292" column="19" lean-forward="false" selection-start-line="292" selection-start-column="19" selection-end-line="292" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_jekyll-mono.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="97" column="21" lean-forward="false" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -840,15 +819,15 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+    <entry file="file://$PROJECT_DIR$/_sass/_jekyll-mono.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="56" column="16" lean-forward="false" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="16" />
+        <state relative-caret-position="-544">
+          <caret line="97" column="21" lean-forward="false" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-03-10-Start-Coding-Blog.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2015-03-10-coding-blog.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="210">
@@ -859,11 +838,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-07-12-Upload-To-Jecenter.md">
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147">
+          <caret line="8" column="80" lean-forward="false" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_highlights.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="60" column="4" lean-forward="false" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+          <first_editor relative-caret-position="29">
+            <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-07-12-jcenter.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-97">
+            <caret line="260" column="8" lean-forward="true" selection-start-line="260" selection-start-column="8" selection-end-line="260" selection-end-column="8" />
             <folding />
           </first_editor>
           <second_editor />
