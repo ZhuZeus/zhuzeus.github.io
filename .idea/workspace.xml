@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e84f7d62-c6fc-478d-bb3e-d58300a3d805" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/merroy/can_get.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/merroy/direct_reference.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/merroy/memory_reference.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-10-10-java_memorry_and_type.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.scss" afterPath="$PROJECT_DIR$/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-10-10-java_memorry_and_type.md" afterPath="$PROJECT_DIR$/_posts/2015-10-10-java_memorry_and_type.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,7 +52,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="302">
-                <caret line="72" column="33" lean-forward="false" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+                <caret line="74" column="27" lean-forward="false" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -359,12 +355,12 @@
       <workItem from="1482398190743" duration="3000" />
       <workItem from="1482398200362" duration="1053000" />
       <workItem from="1482399296781" duration="33538000" />
-      <workItem from="1483581152760" duration="32636000" />
+      <workItem from="1483581152760" duration="32859000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122209000" />
+    <option name="totallyTimeSpent" value="122432000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -739,7 +735,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="302">
-            <caret line="72" column="33" lean-forward="false" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+            <caret line="74" column="27" lean-forward="false" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
             <folding />
           </first_editor>
           <second_editor />
