@@ -98,8 +98,10 @@ java八大基础类型在JVM中是如何输入输入数据？jvm的存储区域�
            
           ```
            以下两种声明常量方式有什么区别呢？
+           
              a),public static final HANDSOME_JOEY boolean = true;
              b),public final HANDSOME_JOEY  boolean =true;
+             
            区别在于a在类装载(也就是编译时)就生成了对象并分配了内存,而b在每次声明类对象的时候都会重新
            分配内存.  因为a声明的静态变量在编译的时候已经分配内存，final的存在导致声明后便不可更改。
            然而b每次在依赖类对象后分配内存，类对象被回收后又会重新生成新的引用地址。       
