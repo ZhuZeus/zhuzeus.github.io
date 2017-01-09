@@ -15,7 +15,7 @@
 /**************/
 
 html {
-  font-size: 100%;
+  font-size: small;
 }
 
 body {
@@ -96,9 +96,16 @@ ul, ol {
 margin: 15px 0;
 padding-left: 30px;
 }
-
+ul li {
+  font-size: 14px;
+  font-style: inherit;
+  color: #445566;
+  padding: 4px;
+  list-style-type: none;
+}
 ul {
 list-style-type: disc;
+
 }
 
 ol {
